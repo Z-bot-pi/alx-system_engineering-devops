@@ -41,3 +41,11 @@ file { '/etc/puppetlabs/code/environments/production/modules/nginx/templates/def
         location / {
             try_files $uri $uri/ =404;
         }
+
+        location = /redirect_me {
+            return 301 https://www.github.com/z-bot-pi;
+        }
+    }
+  | END
+  require => Package['nginx'],
+}
