@@ -1,5 +1,7 @@
 # Postmortem: Nginx Server Outage
 
+![Incident Timeline](https://raw.githubusercontent.com/Z-bot-pi/alx-system_engineering-devops/master/0x19-postmortem/The%20Great%20Nginx%20Nap.jpg)
+
 ## Issue Summary
 **Duration of Outage:**
 - Start: June 18, 2024, 14:00 UTC
@@ -54,3 +56,4 @@ By implementing these corrective and preventative measures, we aim to reduce the
 **GitHub repository:** [alx-system_engineering-devops](https://github.com/z-bot-pi/alx-system_engineering-devops)  
 **Directory:** `0x19-postmortem`  
 **File:** `README.md`
+
